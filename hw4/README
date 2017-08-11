@@ -1,0 +1,6 @@
+# Best block factor for performance test 
+
+cuda=32
+openmp=256
+# Please use HW4_x1054037_openmp_32.cu for 2GPU performance test.
+# Which block size is enforced to 32.

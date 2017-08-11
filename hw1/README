@@ -1,0 +1,20 @@
+*How to use judge.sh for HW1*
+
+1. Copy /home/ipl2017/shared/hw1 to your own directory
+> cd
+> cp -r /home/ipl2017/shared/hw1 .
+
+2. Copy your source code to ~/hw1/. directory
+> cp {Your source code} ~/hw1/.
+
+3. Rename your source code
+> HW1_{Your account id}.c (or .cpp)
+
+4. Run judge
+> cd ~/hw1    # get into hw1/
+> ./judge.sh
+
+*How to see testcase in float*
+1. Run b2float script
+> cd ~/hw1
+> ./b2float testcase/testcase1 
